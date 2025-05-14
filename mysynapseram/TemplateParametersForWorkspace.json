@@ -5,8 +5,14 @@
 		"workspaceName": {
 			"value": "mysynapseram"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"mysynapseram-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:mysynapseram.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://mystorageaccountpratic.dfs.core.windows.net/"
 		},
 		"mysynapseram-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://mystorageaccountpratic.dfs.core.windows.net"
